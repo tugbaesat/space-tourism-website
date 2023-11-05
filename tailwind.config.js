@@ -16,6 +16,11 @@ module.exports = {
       bellefair: ["Bellefair", "sans-serif"],
       "barlow-bondensed": ["Barlow_Condensed", "sans-serif"],
     },
+    backgroundImage: (theme) => ({
+      "sm-image": "url('/assets/home/background-home-mobile.jpg')",
+      "md-image": "url('/assets/home/background-home-tablet.jpg')",
+      "lg-image": "url('/assets/home/background-home-desktop.jpg')",
+    }),
   },
   plugins: [],
 };
