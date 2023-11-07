@@ -1,4 +1,6 @@
 /** @type {import('tailwindcss').Config} */
+const colors = require("tailwindcss/colors");
+
 module.exports = {
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
@@ -8,13 +10,21 @@ module.exports = {
   theme: {
     extend: {},
     colors: {
-      "secondary-violet": "#D0D6F9",
-      "secondary-white": "#FFFFFF",
-      "primary-black": "#0B0D17",
+      primaryViolet: "#D0D6F9",
+      primaryWhite: "#FFFFFF",
+      primaryBlack: "#0B0D17",
+      transparent: "transparent",
+      current: "currentColor",
+      black: colors.black,
+      white: colors.white,
+      gray: colors.gray,
+      emerald: colors.emerald,
+      indigo: colors.indigo,
+      yellow: colors.yellow,
     },
     fontFamily: {
       bellefair: ["Bellefair", "sans-serif"],
-      "barlow-bondensed": ["Barlow_Condensed", "sans-serif"],
+      barlowCondensed: ["Barlow_Condensed", "sans-serif"],
     },
     backgroundImage: (theme) => ({
       "sm-image": "url('/assets/home/background-home-mobile.jpg')",

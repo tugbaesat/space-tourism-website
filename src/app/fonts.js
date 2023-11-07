@@ -5,7 +5,7 @@ export const bellefair = Bellefair({
   weight: "400",
 });
 
-export const barlow_condensed = Barlow_Condensed({
+export const barlowCondensed = Barlow_Condensed({
   subsets: ["latin"],
   display: "swap",
   weight: "400",
