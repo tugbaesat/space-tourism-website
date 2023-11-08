@@ -31,7 +31,7 @@ const Navbar = () => {
         className="w-10 ml-7"
       />
       <ul
-        className={`bg-[#ffffff14] backdrop-blur-md  md:pl-10 pr-28 md:static fixed duration-500 ease-linear top-0 md:h-auto h-screen z-10 ${
+        className={`bg-[#ffffff14] backdrop-blur-md  md:pl-10 pr-28 md:static fixed duration-500 ease-linear top-0 md:h-24 md:flex  md:items-center h-screen z-10 ${
           !openMenu ? "right-[-100%] " : "right-0"
         }`}
       >
