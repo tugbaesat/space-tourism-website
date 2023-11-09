@@ -39,9 +39,9 @@ const Navbar = () => {
         {menus.map((menu, index) => (
           <li
             key={index}
-            className="flex items-center  h-24 border-b-2 border-transparent hover:border-primaryWhite duration-300"
+            className="flex items-center h-24 border-b-2 border-transparent hover:border-primaryWhite duration-300"
           >
-            <a className="">
+            <a className="text-primaryWhite">
               <span className="font-bold mr-1.5">{menu.id}</span> {menu.name}
             </a>
           </li>

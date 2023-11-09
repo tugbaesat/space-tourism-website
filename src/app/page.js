@@ -1,6 +1,7 @@
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import DestinationList from "./components/DestinationList";
+import CrewsList from "./components/CrewsList";
 
 export default function App() {
   return (
@@ -8,7 +9,8 @@ export default function App() {
       <section>
         <Navbar />
         <Home />
-        <DestinationList/>
+        <DestinationList />
+        <CrewsList />
       </section>
     </main>
   );

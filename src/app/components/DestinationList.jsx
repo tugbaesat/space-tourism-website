@@ -19,7 +19,7 @@ const DestinationList = () => {
         <span className="text-primaryViolet font-bold pr-4 opacity-25">01</span>{" "}
         pick your destination
       </h5>
-      <div className="grid grid-cols-1 lg:grid-cols-2">
+      <div className="grid grid-cols-1 lg:grid-cols-2 ">
         <ul>
           <DestinationImage destination={selectedDestination} />
         </ul>
