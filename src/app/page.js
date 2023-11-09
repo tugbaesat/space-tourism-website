@@ -1,14 +1,14 @@
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
-import DestinationA from "./components/DestinationA";
+import DestinationList from "./components/DestinationList";
 
 export default function App() {
   return (
     <main>
-      <section >
+      <section>
         <Navbar />
         <Home />
-        <DestinationA/>
+        <DestinationList/>
       </section>
     </main>
   );
