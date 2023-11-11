@@ -14,7 +14,10 @@ const DestinationList = () => {
   };
 
   return (
-    <section className="pt-20 md:pt-36 text-center bg-sm-image-destination md:bg-md-image-destination lg:bg-lg-image-destination bg-cover bg-no-repeat h-screen">
+    <section
+      id="destination"
+      className="pt-20 md:pt-36 text-center bg-sm-image-destination md:bg-md-image-destination lg:bg-lg-image-destination bg-cover bg-no-repeat h-screen"
+    >
       <h5 className="text-lg lg:text-3xl font-['Barlow Condensed'] tracking-widest uppercase md:text-left md:pl-10">
         <span className="text-primaryViolet font-bold pr-4 opacity-25">01</span>{" "}
         pick your destination

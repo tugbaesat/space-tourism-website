@@ -12,7 +12,10 @@ const CrewsList = () => {
   };
 
   return (
-    <section className="pt-20 md:pt-36 text-center bg-sm-image-crew md:bg-md-image-crew lg:bg-lg-image-crew bg-cover bg-no-repeat h-screen lg:text-left">
+    <section
+      id="crew"
+      className="pt-20 md:pt-36 text-center bg-sm-image-crew md:bg-md-image-crew lg:bg-lg-image-crew bg-cover bg-no-repeat h-screen lg:text-left"
+    >
       <h5 className="text-lg lg:text-3xl font-['Barlow Condensed'] tracking-widest uppercase md:text-left md:pl-10">
         <span className="text-primaryViolet font-bold pr-4 opacity-25">02</span>{" "}
         Meet your crew
