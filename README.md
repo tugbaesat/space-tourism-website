@@ -4,7 +4,7 @@
 This is a Frontend Mentor project, the aim is to build out this multi-page space tourism website and get it looking as close to the design as possible.
 
 Design preview for the Clipboard landing page coding challenge:
-![Design preview for the Clipboard landing page coding challenge](https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_700/Challenges/utfcwjgwmfwu5rfsazoo.jpg)
+![Design preview for the Clipboard landing page coding challenge](./public/design/design.webp)
 
 ## Live Demo of the Project: 📹
 
@@ -18,8 +18,10 @@ Design preview for the Clipboard landing page coding challenge:
 ## Screenshots: 📷
 
 ### Main Page
-![image](https://github.com/tugbaesat/clipboard-landing-page-challenge/assets/114342008/998cd559-446b-4485-ace5-2b780e2dd5e3)
-
+![image](./public/design/screenshot-1.png)
+![image](./public/design/screenshot-2.png)
+![image](./public/design/screenshot-3.png)
+![image](./public/design/screenshot-4.png)
 
 ## Authors: 💻
 [@tugbaesat](https://github.com/tugbaesat)
