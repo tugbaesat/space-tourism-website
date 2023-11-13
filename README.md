@@ -17,7 +17,6 @@ Design preview for the Clipboard landing page coding challenge:
 
 ## Screenshots: 📷
 
-### Main Page
 ![image](./public/design/screenshot-1.png)
 ![image](./public/design/screenshot-2.png)
 ![image](./public/design/screenshot-3.png)
